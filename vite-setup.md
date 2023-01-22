@@ -37,7 +37,7 @@
 5. ESLint config file: 
    1. Extends add and remove (prettier added in earlier than needed)
    ```json
-   extends: [
+   "extends": [
     "airbnb",
     "airbnb-typescript",
     "airbnb/hooks",
