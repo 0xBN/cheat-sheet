@@ -49,7 +49,7 @@
    2. ParserOptions add
 
    ```json
-   parserOptions: { project: './tsconfig.json'}
+   parserOptions: { "project": "./tsconfig.json"}
    ```
 6. tsconfig.json add (vite config added ahead of time)
    ```json
@@ -59,11 +59,11 @@
    1. Check which rule is affected by disabling it first and getting the rule name
    2. go to .eslintrc.cjs and put name under (sample below)
    ```json
-      rules: {
-      'react/react-in-jsx-scope': 0,
-      'jsx-filename-extension': 0,
-      'react/jsx-filename-extension': 0,
-      'jsx-quotes': 0,
+      "rules": {
+      "react/react-in-jsx-scope": 0,
+      "jsx-filename-extension": 0,
+      "react/jsx-filename-extension": 0,
+      "jsx-quotes": 0,
    },
    ```
 8. Prettier
@@ -75,15 +75,15 @@
       1. https://prettier.io/docs/en/configuration.html
    ```json
    module.exports = {
-      trailingComma: "es5",
-      tabWidth: 2,
-      semi: true,
-      singleQuote: true,
+      "trailingComma": "es5",
+      "tabWidth": 2,
+      "semi": true,
+      "singleQuote": true,
       };
    ```
       2. Add to .eslintrc.cjs plugins
    ```json
-   plugins: ['react', '@typescript-eslint', 'prettier'],
+   "plugins": ["react", "@typescript-eslint", "prettier"],
    ```
 
 ## Testing
