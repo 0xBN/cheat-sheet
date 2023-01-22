@@ -19,9 +19,11 @@
 1. Run
    ```
    npm i -D eslint
-   npx eslint --init
    ```
 2. Init Options
+   ```
+   npx eslint --init
+   ```
    1. check syntax and find problems > JavaScript modules (import/export) > React > Typescript > Browser > JavaScript > Install all recommended dependencies > npm
    
 3. Install Airbnb eslint (https://www.npmjs.com/package/eslint-config-airbnb)
