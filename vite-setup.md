@@ -67,8 +67,10 @@
    },
    ```
 8. Prettier
-   1. install
-      1. npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+   1. Install
+   ```
+   npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+   ```
    2. configuration: .prettierrc.cjs
       1. https://prettier.io/docs/en/configuration.html
    ```json
