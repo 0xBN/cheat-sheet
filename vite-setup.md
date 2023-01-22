@@ -71,7 +71,7 @@
    ```
    npm i -D prettier eslint-config-prettier eslint-plugin-prettier
    ```
-   2. configuration: .prettierrc.cjs
+   2. Create config file in root (.prettierrc.cjs)
       1. https://prettier.io/docs/en/configuration.html
    ```json
    module.exports = {
