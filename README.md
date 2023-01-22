@@ -1,3 +1,6 @@
 # Repository for easy starts
 
-## Vite Setup [https://github.com/0xBN/cheat-sheet/blob/main/vite-setup.md]
+## Repository Links
+
+- [ Vite setup ](https://github.com/0xBN/cheat-sheet/blob/main/vite-setup.md)
+- [Sample Project readme md]()
